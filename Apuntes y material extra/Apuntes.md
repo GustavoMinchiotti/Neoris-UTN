@@ -100,3 +100,28 @@ As the first thing people see when they visit your website, a hero section is th
 * What action they should take next
 
 ## Wireframe listo
+
+
+## inicio maqueta
+`.gitignore listo`
+
+instalo sass en la carpeta
+
+![img_2.png](img_2.png)
+
+pido que sass vea los archivo y como salida tiene al css
+
+![img_1.png](img_1.png)
+
+Voy a crear las hojas sass de componentes y globales en la carpeta sas les doy `@use` y solo lo debe agregar al css final
+
+Bootstrap `seteado` copiar y pegar
+
+https://web-eau.net/en/blog/examples-header-bootstrap
+
+https://colorlib.com/wp/bootstrap-navbar/
+
+Con esto encontre para justificar 
+
+https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-helper-classes.php
+

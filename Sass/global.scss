@@ -1,3 +1,5 @@
+@use "componentes";
+
 html {
   min-width: 100vw;
 }
@@ -5,17 +7,14 @@ html {
 body {
   padding: 0;
   margin: 0;
-  background-color: #161617;
+  background-color: componentes.$background-color;
 }
-
 .navbar-header a img {
   max-width: 5rem;
 }
-
 .nav_navbar-nav {
   padding: 2rem;
 }
-
 .navegacion {
   justify-content: space-around;
   align-content: flex-end;
@@ -23,5 +22,3 @@ body {
   background-color: rgb(61, 16, 16);
   font-size: large;
 }
-
-/*# sourceMappingURL=styles.css.map */
