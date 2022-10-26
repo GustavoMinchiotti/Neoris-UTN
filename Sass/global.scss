@@ -1,13 +1,15 @@
 @use "componentes";
 
 html {
-  min-width: 100vw;
+  min-width: 95vw;
 }
 
 body {
   padding: 0;
   margin: 0;
-  background-color: componentes.$background-color;
+  background-color: componentes.$background-color; //*luego de importar trato al archivo como un objeto
+  min-height: 95vw;
+  color: componentes.$text-color; //*luego de importar trato al archivo como un objeto
 }
 .navbar-header a img {
   max-width: 5rem;
@@ -19,6 +21,100 @@ body {
   justify-content: space-around;
   align-content: flex-end;
   align-items: center;
-  background-color: rgb(61, 16, 16);
+  // background-color: rgb(61, 16, 16);
   font-size: large;
+}
+
+//* CUSTOM UTIL CLASSES
+.bg-cover {
+  background-size: cover !important; //!volver a sacar el important
+  background-repeat: no-repeat;
+  min-height: 580px;
+  opacity: 0.85;
+}
+.contenedorH1 {
+  min-height: 580px;
+  text-shadow: 2px 2px 5px #260101;
+  h1 {
+    font-size: 6rem;
+  }
+  p {
+    padding: 2rem;
+    font-size: 2.5rem;
+  }
+}
+.Q_S {
+  background-color: componentes.$background-color-soft;
+  margin: auto;
+  min-width: 99vw; //para que no se vea margen sin color de fondo
+
+  .centrarTexto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: left;
+  }
+  p {
+    margin-bottom: 3rem;
+  }
+}
+
+.S_M {
+  background-color: componentes.$background-color;
+  display: flex;
+  margin: auto;
+  min-width: 99vw;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: space-around;
+  text-align: left;
+
+  .S_MI {
+    align-items: flex-start;
+    border: solid 1px red;
+    max-width: 90%;
+
+    .fotoTitulo {
+      border: solid 1px green;
+      h2 {
+        margin-bottom: 4rem;
+        margin-left: 2rem;
+      }
+    }
+  }
+
+  .description {
+    border: solid 2px blue;
+    .about {
+      border: solid 1px yellow;
+    }
+  }
+}
+
+.FotosSitio {
+  border: solid 1px red;
+  background-color: componentes.$background-color-soft;
+  margin: auto;
+  min-width: 99vw;
+  min-height: 90vh;
+  .headerFotos {
+    border: solid 1px yellow;
+  }
+  .las8img{
+    border: solid 1px rgb(72, 255, 0);
+    min-height: 80vh;
+    .i4superior{
+      padding: 4rem; //sin importan no tiene especificidad
+      img{
+        border: solid 1px rgb(72, 255, 0);
+        &:hover{
+          box-shadow: 5px 5px 16px 1px red;
+          transform: scale(8); //translate(0px,50px);
+          
+        }
+      }
+    }
+  }
+
 }

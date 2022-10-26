@@ -1,8 +1,34 @@
+@mixin btn-base {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+}
+@mixin btn-sm-modify {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
 
-$color-main: #0075FF;
+$color-main: #f2e5d5;
 $color-footer: #f4f8fe;
 $background-color: #161617;
-$background-color-soft: #212121;
-$text-color: white;
-$text-color-soft: #999;
+$background-color-soft: #201a1a;
+$btn-color-dark: #291515;
+/* A variable that is being used in the mixin. */
+$text-color: #e9d9bc;
+$text-color-soft: #d9a05b;
 
+.btn-contacto {
+  //colores madera, ver hover,
+  @include btn-base();
+  color: $text-color;
+  background-color: $btn-color-dark;
+  box-shadow: -1px -1px 16px 1px $color-main;
+  &:hover {
+    background-color: $color-main;
+    color: $btn-color-dark;
+    box-shadow: -1px -1px 16px 1px $btn-color-dark;
+  }
+}
+//* las fotos antes y después del hover mas click
+.foto1{
+  max-width: 120px;
+}

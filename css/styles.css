@@ -1,11 +1,31 @@
+/* A variable that is being used in the mixin. */
+.btn-contacto {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  color: #e9d9bc;
+  background-color: #291515;
+  box-shadow: -1px -1px 16px 1px #f2e5d5;
+}
+.btn-contacto:hover {
+  background-color: #f2e5d5;
+  color: #291515;
+  box-shadow: -1px -1px 16px 1px #291515;
+}
+
+.foto1 {
+  max-width: 120px;
+}
+
 html {
-  min-width: 100vw;
+  min-width: 95vw;
 }
 
 body {
   padding: 0;
   margin: 0;
   background-color: #161617;
+  min-height: 95vw;
+  color: #e9d9bc;
 }
 
 .navbar-header a img {
@@ -20,8 +40,96 @@ body {
   justify-content: space-around;
   align-content: flex-end;
   align-items: center;
-  background-color: rgb(61, 16, 16);
   font-size: large;
+}
+
+.bg-cover {
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  min-height: 580px;
+  opacity: 0.85;
+}
+
+.contenedorH1 {
+  min-height: 580px;
+  text-shadow: 2px 2px 5px #260101;
+}
+.contenedorH1 h1 {
+  font-size: 6rem;
+}
+.contenedorH1 p {
+  padding: 2rem;
+  font-size: 2.5rem;
+}
+
+.Q_S {
+  background-color: #201a1a;
+  margin: auto;
+  min-width: 99vw;
+}
+.Q_S .centrarTexto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  text-align: left;
+}
+.Q_S p {
+  margin-bottom: 3rem;
+}
+
+.S_M {
+  background-color: #161617;
+  display: flex;
+  margin: auto;
+  min-width: 99vw;
+  min-height: 80vh;
+  align-items: center;
+  justify-content: space-around;
+  text-align: left;
+}
+.S_M .S_MI {
+  align-items: flex-start;
+  border: solid 1px red;
+  max-width: 90%;
+}
+.S_M .S_MI .fotoTitulo {
+  border: solid 1px green;
+}
+.S_M .S_MI .fotoTitulo h2 {
+  margin-bottom: 4rem;
+  margin-left: 2rem;
+}
+.S_M .description {
+  border: solid 2px blue;
+}
+.S_M .description .about {
+  border: solid 1px yellow;
+}
+
+.FotosSitio {
+  border: solid 1px red;
+  background-color: #201a1a;
+  margin: auto;
+  min-width: 99vw;
+  min-height: 90vh;
+}
+.FotosSitio .headerFotos {
+  border: solid 1px yellow;
+}
+.FotosSitio .las8img {
+  border: solid 1px rgb(72, 255, 0);
+  min-height: 80vh;
+}
+.FotosSitio .las8img .i4superior {
+  padding: 4rem;
+}
+.FotosSitio .las8img .i4superior img {
+  border: solid 1px rgb(72, 255, 0);
+}
+.FotosSitio .las8img .i4superior img:hover {
+  box-shadow: 5px 5px 16px 1px red;
+  transform: scale(8);
 }
 
 /*# sourceMappingURL=styles.css.map */

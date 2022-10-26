@@ -125,3 +125,13 @@ Con esto encontre para justificar
 
 https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-helper-classes.php
 
+Copie el banner de id ideas la página. https://idforideas.com/# Para ajustar la imagen
+
+![img_3.png](img_3.png)
+
+Multiples sombras
+
+https://www.w3schools.com/css/tryit.asp?filename=trycss3_box-shadow9
+
+![img_4.png](img_4.png)
+
