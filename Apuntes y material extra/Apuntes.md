@@ -90,6 +90,8 @@ procesos (como compartir la velada con bebidas y algo de picar) ya podrían irse
 ## Hero section
 https://www.justinmind.com/blog/inspiring-hero-image-websites/
 
+https://www.w3schools.com/howto/howto_css_hero_image.asp
+
 What is a Hero Section?
 
 As the first thing people see when they visit your website, a hero section is the area that immediately shows up on the screen under your logo and menu. This portion of the page should ideally include information about four things:
@@ -135,3 +137,22 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss3_box-shadow9
 
 ![img_4.png](img_4.png)
 
+### slide show gallery
+
+https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp
+
+probar!!!!!!
+-----------------------------------------------------------------
+### form contacto
+contacto inline + imagen de fondo
+
+https://www.w3schools.com/howto/howto_css_inline_form.asp
+
+https://www.w3schools.com/howto/howto_css_form_on_image.asp
+
+### form presupuesto mas simple
+
+
+### validation
+
+https://www.w3schools.com/howto/howto_js_validation_empty_input.asp 

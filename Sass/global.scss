@@ -15,8 +15,10 @@ body {
   max-width: 5rem;
 }
 .nav_navbar-nav {
-  padding: 2rem;
+  padding: 2rem; 
+  
 }
+
 .navegacion {
   justify-content: space-around;
   align-content: flex-end;
@@ -97,24 +99,106 @@ body {
   background-color: componentes.$background-color-soft;
   margin: auto;
   min-width: 99vw;
-  min-height: 90vh;
+  min-height: 85vh;
   .headerFotos {
     border: solid 1px yellow;
   }
-  .las8img{
+  .las8img {
     border: solid 1px rgb(72, 255, 0);
-    min-height: 80vh;
-    .i4superior{
-      padding: 4rem; //sin importan no tiene especificidad
-      img{
+    justify-content: flex-end;
+
+    .i4superior {
+      padding: 2rem; 
+      margin: 2rem;
+       //sin importan no tiene especificidad
+      img {
         border: solid 1px rgb(72, 255, 0);
-        &:hover{
+        margin: 2rem;
+        &:hover {
           box-shadow: 5px 5px 16px 1px red;
-          transform: scale(8); //translate(0px,50px);
-          
+          transform: scale(2); //translate(0px,50px);
+          transition: 1s;
+        }
+      }
+    }
+    .i4inferior {
+      padding: 4rem; //sin importan no tiene especificidad
+      margin: 2rem;
+      img {
+        border: solid 1px rgb(255, 0, 221); 
+        margin: 2rem;
+        &:hover {
+        
+
+          box-shadow: 5px 5px 16px 1px red;
+          transform: scale(3); //translate(0px,50px);
+          transition: 1s;
         }
       }
     }
   }
+}
 
+* {
+  box-sizing: border-box;
+}
+
+// .bg-imgForm {
+//   /* The image used */
+//   background-image: url("/Assets/fondo-madera55716-1138.jpg");
+
+//   min-height: 30vh;
+
+//   /* Center and scale the image nicely */
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   position: relative;
+//   opacity: 80%;
+// }
+
+
+/* Style the form - display items horizontally */
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+/* Add some margins for each label */
+.form-inline label {
+  margin: 5px 10px 5px 0;
+}
+
+/* Style the input fields */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: rgb(126, 123, 123);
+  border: 1px solid rgb(163, 9, 9);
+}
+
+/* Style the submit button */
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
 }
