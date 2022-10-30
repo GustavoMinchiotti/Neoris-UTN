@@ -148,52 +148,248 @@ body {
   transition: 1s;
 }
 
-* {
-  box-sizing: border-box;
+.columnaFormX2 {
+  border: 1px solid rgb(38, 0, 255);
+  justify-content: center;
 }
 
-/* Style the form - display items horizontally */
-.form-inline {
+.formSide {
+  border: 1px solid rgb(255, 0, 0);
+  justify-self: center;
+}
+.formSide .pCentrar {
+  border: 1px solid rgb(38, 0, 255);
+  justify-self: center;
+  align-content: center;
+  text-align: center;
+  padding-block: 2em;
+}
+.formSide .pCentrar .frase {
+  font-size: 1.25rem;
+  padding: 2rem;
+}
+
+.formularioDerecha {
+  border: 1px solid rgb(0, 255, 21);
+  /**
+  * ! style rules for form section
+  **/
+  /**
+  * ! style rules for social section
+  **/
+  /**
+  * ! style rules for form icons
+  **/
+  /**
+  * ! style rules for button 
+  **/
+  /**
+  * ! Media Queries are here
+  **/
+}
+.formularioDerecha form {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+  /* max-width: 400px; */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+}
+.formularioDerecha .title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.formularioDerecha form div input {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  outline: none;
+  border: 2px solid #c4c4c4;
+  padding: 0 30px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.formularioDerecha label {
+  display: block;
+  margin-bottom: 5px;
+}
+.formularioDerecha form div {
+  position: relative;
+  margin-bottom: 15px;
+}
+.formularioDerecha input:focus {
+  border: 2px solid #f2796e;
+}
+.formularioDerecha .btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+}
+.formularioDerecha .btn-1,
+.formularioDerecha .btn-2 {
+  padding: 10px 5px;
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
   align-items: center;
+  border: 2px solid #c4c4c4;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
-
-/* Add some margins for each label */
-.form-inline label {
-  margin: 5px 10px 5px 0;
-}
-
-/* Style the input fields */
-.form-inline input {
-  vertical-align: middle;
-  margin: 5px 10px 5px 0;
-  padding: 10px;
-  background-color: rgb(126, 123, 123);
-  border: 1px solid rgb(163, 9, 9);
-}
-
-/* Style the submit button */
-.form-inline button {
-  padding: 10px 20px;
-  background-color: dodgerblue;
-  border: 1px solid #ddd;
+.formularioDerecha .btn-2 {
+  background-color: #4f70b5;
   color: white;
+  border: 2px solid #4f70b5;
 }
-
-.form-inline button:hover {
-  background-color: royalblue;
+.formularioDerecha .or {
+  text-align: center;
 }
-
-/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
-@media (max-width: 800px) {
-  .form-inline input {
-    margin: 10px 0;
-  }
-  .form-inline {
+.formularioDerecha .question {
+  font-size: 15px;
+}
+.formularioDerecha span {
+  color: #f2796e;
+  cursor: pointer;
+}
+.formularioDerecha form div i {
+  position: absolute;
+  padding: 10px;
+  color: #291515;
+}
+.formularioDerecha .success-icon,
+.formularioDerecha .failure-icon {
+  right: 0;
+  opacity: 0;
+}
+.formularioDerecha .failure-icon,
+.formularioDerecha .error {
+  color: red;
+}
+.formularioDerecha .success-icon {
+  color: green;
+}
+.formularioDerecha .error {
+  font-size: 14.5px;
+  margin-top: 5px;
+}
+.formularioDerecha button {
+  margin-top: 15px;
+  width: 100%;
+  height: 45px;
+  background-color: #f2796e;
+  border: 2px solid #f2796e;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease;
+}
+.formularioDerecha button:hover {
+  opacity: 0.8;
+}
+@media (max-width: 900px) {
+  .formularioDerecha .container {
     flex-direction: column;
-    align-items: stretch;
   }
+  .formularioDerecha form,
+.formularioDerecha .content {
+    width: 100%;
+  }
+  .formularioDerecha .btn {
+    flex-direction: column;
+  }
+  .formularioDerecha .image {
+    height: 70vh;
+  }
+}
+@media (max-width: 425px) {
+  .formularioDerecha form {
+    padding: 20px;
+  }
+}
+
+/*footer*/
+footer {
+  width: 100%;
+  background-color: #263238;
+  min-height: 3rem;
+  padding: 10px 0px 25px 0px;
+}
+
+footer p {
+  font-size: 13px;
+  color: rgb(251, 255, 2);
+  padding-bottom: 0px;
+  margin-bottom: 8px;
+}
+
+.footer_ul {
+  margin: 0px;
+  list-style-type: none;
+  font-size: 14px;
+  padding: 0px 0px 10px 0px;
+}
+
+.footer_ul li {
+  padding: 0px 0px 5px 0px;
+}
+
+.footer_ul li a {
+  color: rgb(253, 128, 186);
+}
+
+.footer_ul li a:hover {
+  color: rgb(245, 9, 213);
+  text-decoration: none;
+}
+
+.footer_bottom_ul {
+  list-style-type: none;
+  padding: 0px;
+  display: table;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+.footer_bottom_ul li {
+  display: inline;
+}
+
+.footer_bottom_ul li a {
+  color: #999;
+  margin: 0 12px;
+}
+
+.social_footer_ul {
+  display: table;
+  margin: 15px auto 0 auto;
+  list-style-type: none;
+}
+
+.social_footer_ul li {
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+}
+
+.social_footer_ul li a {
+  color: #ccc;
+  border: 1px solid rgb(175, 6, 6);
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.social_footer_ul li i {
+  width: 20px;
+  height: 20px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

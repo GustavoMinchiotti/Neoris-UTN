@@ -151,7 +151,13 @@ https://www.w3schools.com/howto/howto_css_inline_form.asp
 https://www.w3schools.com/howto/howto_css_form_on_image.asp
 
 ### form presupuesto mas simple
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_copy_clipboard  Puede guardar la info del form..
 
+dark bright https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
+
+### Un solo form para todo
+
+https://codepen.io/joyshaheb/pen/XWgdOyY  
 
 ### validation
 

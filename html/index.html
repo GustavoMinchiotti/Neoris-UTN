@@ -13,7 +13,9 @@
 
     <link rel="stylesheet" href="/css/styles.css">
 
-    <link rel="shortcut icon" href="/Assets/Rústico Runa.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/Assets/Rústico Runa.png" type="image/x-icon"> <!-- favicon-->
+
+    <script src="https://kit.fontawesome.com/d0f8627bd4.js" crossorigin="anonymous"></script>
 
 
 </head>
@@ -174,35 +176,131 @@
         </div>
     </section>
 
-    <section class="formularioContacto">
 
-        <div class="bg-imgForm">
-            <form class="form-inline" action="#">
-                <label for="email">Email:</label>
-                <input type="email" id="email" placeholder="Enter email" name="email">
-                <label for="pwd">Password:</label>
-                <input type="password" id="pwd" placeholder="Enter password" name="pswd">
-                <label>
-                    <input type="checkbox" name="remember"> Remember me
-                </label>
-                <button type="submit">Submit</button>
-            </form>
+    <div class="heroPreForm">
+        <div>
+            <img src="/Assets/herramientas-carpinteria.png" alt="fondoHero" class="hero2">
+            <p>¿Viste un mueble que te gustó y lo necesitás a medida?</p>
+            <p>¡Nosotros lo fabricamos!</p>
+        </div>
+
+    </div>
+
+
+    <section class="formContacPresup container-fluid">
+        <div class="columnaFormX2  row align-items-center ">
+
+            <div class="formSide col">
+                <div class="pCentrar  align-items-center">
+                    <h3 class="display-3">
+                        ¡PEDÍ TU COTIZACIÓN AHORA!
+                    </h3>
+                    <h6 class="frase">
+                        Indicanos el modelo y en qué medidas lo necesitás para que podamos cotizarlo. <br>
+                        ​<br>
+                        Envianos fotos o diseños del mueble que quieras que fabriquemos, o programá una visita a nuestro
+                        showroom en Vicente López.
+                    </h6>
+                </div>
+            </div>
+
+            <div class="formularioDerecha col">
+                <form action="/action_page.php">
+                    <div class="container">
+                        
+                        <form id="form">
+                            <!-- <div class="social">
+                                <div class="title">Get Started</div>
+                                <div class="question">
+                                    Already Have an Account? <br />
+                                    <span>Sign In</span>
+                                </div>
+
+                                <div class="btn">
+                                    <div class="btn-1">
+                                        <img src="https://img.icons8.com/color/30/000000/google-logo.png" />
+                                        Sign Up
+                                    </div>
+                                    <div class="btn-2">
+                                        <img src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png" />
+                                        Sign Up
+                                    </div>
+                                </div>
+
+                                <div class="or">Or</div>
+                            </div> -->
+
+                            <!-- /** 
+                                * ! user name Input here
+                               **/ -->
+
+                            <div>
+                                <label for="username">Nombre *</label>
+                                <i class="fas fa-user"></i>
+                                <input type="text" name="username" id="username" placeholder="Su nombre aquí" />
+                                <i class="fas fa-exclamation-circle failure-icon"></i>
+                                <i class="far fa-check-circle success-icon"></i>
+                                <div class="error"></div>
+                            </div>
+
+                            <!-- /** 
+                                * ! Email Input here
+                               **/ -->
+
+                            <div>
+                                <label for="email">Email *</label>
+                                <i class="far fa-envelope"></i>
+                                <input type="email" name="email" id="email" placeholder="abc@gmail.com" />
+                                <i class="fas fa-exclamation-circle failure-icon"></i>
+                                <i class="far fa-check-circle success-icon"></i>
+                                <div class="error"></div>
+                            </div>
+
+                            <!-- /** 
+                                * ! Password Input here
+                               **/ -->
+
+                            <div>
+                                <label for="Telefono">Teléfono</label>
+                                <i class="fas fa-phone-alt"></i>
+                                <input type="tel" name="Telefono" id="Telefono" placeholder="+54 9 11 1122 1122 " />
+                                <i class="fas fa-exclamation-circle failure-icon"></i>
+                                <i class="far fa-check-circle success-icon"></i>
+                                <div class="error"></div>
+                            </div>
+
+                            <button type="submit" id="submit">Submit</button>
+                        </form>
+                    </div>
+                </form>
+
+            </div>
 
         </div>
 
     </section>
 
-    <section class="formularioPresupuesto">
-
-
-    </section>
 
     <footer>
-        <p class="font-italic text-danger">
-            Porque una runa como imagen de marca? <strong>footer</strong> Significa entre otras cosas cambio
-            evolución transformación
-            COMPLETAR..-------------------------------------COMPLETAR.
-        </p>
+        <div class="container">
+            <ul class="footer_bottom_ul">
+                <li><a href="  ">Home</a></li>
+                <li><a href="  ">About</a></li>
+                <li><a href="  ">Services</a></li>
+                <li><a href="  ">Pricing</a></li>
+                <li><a href="  ">Contact</a></li>
+            </ul>
+            <!--foote_bottom_ul_amrc ends here-->
+            <p class="text-center">Copyright @2017 | Designed With by <a href="#">Your Company Name</a></p>
+
+            <ul class="social_footer_ul">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            <!--social_footer_ul ends here-->
+        </div>
     </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
