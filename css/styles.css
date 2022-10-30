@@ -221,39 +221,12 @@ body {
 .formularioDerecha input:focus {
   border: 2px solid #f2796e;
 }
-.formularioDerecha .btn {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 15px;
-}
-.formularioDerecha .btn-1,
-.formularioDerecha .btn-2 {
-  padding: 10px 5px;
-  width: 100%;
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid #c4c4c4;
-  border-radius: 8px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-}
-.formularioDerecha .btn-2 {
-  background-color: #4f70b5;
-  color: white;
-  border: 2px solid #4f70b5;
-}
-.formularioDerecha .or {
-  text-align: center;
-}
-.formularioDerecha .question {
-  font-size: 15px;
-}
-.formularioDerecha span {
-  color: #f2796e;
-  cursor: pointer;
+.formularioDerecha input[type=number]::-webkit-inner-spin-button,
+.formularioDerecha input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
 }
 .formularioDerecha form div i {
   position: absolute;
@@ -287,7 +260,7 @@ body {
   font-size: 20px;
   cursor: pointer;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.1s ease;
+  transition: all 0.2s ease;
 }
 .formularioDerecha button:hover {
   opacity: 0.8;

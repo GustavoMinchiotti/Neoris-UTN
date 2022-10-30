@@ -159,6 +159,10 @@ dark bright https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
 
 https://codepen.io/joyshaheb/pen/XWgdOyY  
 
+Sacar las flechas de los números en formularios
+
+https://khaalipaper.com/html/remove-arrows-from-input-type-number.php
+
 ### validation
 
 https://www.w3schools.com/howto/howto_js_validation_empty_input.asp 
