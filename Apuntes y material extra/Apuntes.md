@@ -166,3 +166,7 @@ https://khaalipaper.com/html/remove-arrows-from-input-type-number.php
 ### validation
 
 https://www.w3schools.com/howto/howto_js_validation_empty_input.asp 
+
+### Raido
+https://runasvikingas.top/runa-raido/
+

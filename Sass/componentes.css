@@ -1,0 +1,17 @@
+/* A variable that is being used in the mixin. */
+.btn-contacto {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  color: #e9d9bc;
+  background-color: #291515;
+  box-shadow: -1px -1px 16px 1px #f2e5d5;
+}
+.btn-contacto:hover {
+  background-color: #f2e5d5;
+  color: #291515;
+  box-shadow: -1px -1px 16px 1px #291515;
+}
+
+.fotoH {
+  max-width: 14rem;
+}/*# sourceMappingURL=componentes.css.map */
