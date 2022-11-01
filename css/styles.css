@@ -279,7 +279,7 @@ body {
   padding: 2rem;
 }
 
-.formularioDerecha {
+/* .formularioDerecha { }*/
   /**
   * ! style rules for form section
   **/
@@ -295,7 +295,7 @@ body {
   /**
   * ! Media Queries are here
   **/
-}
+
 .formularioDerecha form {
   display: flex;
   flex-direction: column;

@@ -2,10 +2,6 @@
   padding: 0.25rem 1.5rem;
   border-radius: 0.25rem;
 }
-@mixin btn-sm-modify {
-  font-size: 0.75rem;
-  padding: 0.1rem 1rem;
-}
 
 $color-main: #f2e5d5;
 $color-footer: #f4f8fe;
@@ -27,8 +23,4 @@ $text-color-soft: #d9a05b;
     color: $btn-color-dark;
     box-shadow: -1px -1px 16px 1px $btn-color-dark;
   }
-}
-//* las fotos antes y después del hover mas click
-.fotoH{
-  max-width: 14rem;
 }
