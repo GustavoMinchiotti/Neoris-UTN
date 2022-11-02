@@ -2,7 +2,7 @@
 
 ## Trabajo Práctico Final
 
-### Landing Page
+### Landing Page  https://gustavominchiotti.github.io/Tp-Reducido/
 
 * Contiene varias secciones entre ellas una galería de fotos tipo slide show y un formulario con validación de campos.
 * Adjunto en el repositorio el wireFraming tentativo para la pagina
