@@ -12,10 +12,6 @@
   box-shadow: -1px -1px 16px 1px #291515;
 }
 
-.fotoH {
-  max-width: 14rem;
-}
-
 html {
   min-width: 95vw;
 }
@@ -34,6 +30,11 @@ body {
 
 .nav_navbar-nav {
   padding: 2rem;
+}
+
+#runa:hover {
+  border-radius: 50px;
+  box-shadow: -1px -1px 16px 1px;
 }
 
 .navegacion {
@@ -279,7 +280,7 @@ body {
   padding: 2rem;
 }
 
-/* .formularioDerecha { }*/
+.formularioDerecha {
   /**
   * ! style rules for form section
   **/
@@ -295,7 +296,7 @@ body {
   /**
   * ! Media Queries are here
   **/
-
+}
 .formularioDerecha form {
   display: flex;
   flex-direction: column;
